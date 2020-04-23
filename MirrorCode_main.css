@@ -1,0 +1,26 @@
+#message {
+    border: 3px solid blueviolet;
+}
+.parentContainer {
+    display: flex;
+    align-items: center;
+
+}
+.parentFlexBox {
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-around; */
+    width: 50%;
+
+}
+#boxOne {
+   flex: auto;
+    border: 3px solid greenyellow;
+    margin: .5em;
+}
+
+#boxTwo {
+    flex: auto;
+    border: 3px solid orangered;
+    margin: .5em;
+}
